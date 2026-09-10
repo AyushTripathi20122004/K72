@@ -120,7 +120,7 @@ git clone YOUR_REPO_URL
 ### 2. Open the Project
 
 ```bash
-cd k72-studio
+cd K72
 ```
 
 ### 3. Install Dependencies
@@ -217,7 +217,7 @@ The `predeploy` script automatically creates the production build before `gh-pag
 ## 📁 Project Structure
 
 ```text
-k72-studio/
+K72/
 │
 ├── public/
 │
@@ -239,147 +239,6 @@ k72-studio/
 ├── eslint.config.js
 ├── vite.config.js
 └── README.md
-```
-
----
-
-## 🧩 React Structure
-
-The website is built using reusable React components.
-
-A typical component structure looks like:
-
-```jsx
-import React from "react";
-
-const Hero = () => {
-  return (
-    <section className="w-full min-h-screen">
-      <div className="container mx-auto px-5">
-        <h1 className="text-5xl font-bold">
-          K72 Studio
-        </h1>
-
-        <p>
-          Creative digital experience.
-        </p>
-      </div>
-    </section>
-  );
-};
-
-export default Hero;
-```
-
-Components are then combined inside the main application.
-
-```jsx
-import Hero from "./components/Hero";
-
-function App() {
-  return (
-    <>
-      <Hero />
-    </>
-  );
-}
-
-export default App;
-```
-
----
-
-## 💻 HTML
-
-The project uses HTML5 as the main document structure through Vite.
-
-The main `index.html` contains the React root element:
-
-```html
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-
-    <title>K72 Studio</title>
-  </head>
-
-  <body>
-    <div id="root"></div>
-
-    <script
-      type="module"
-      src="/src/main.jsx"
-    ></script>
-  </body>
-</html>
-```
-
-The majority of the website's HTML structure is created using JSX inside React components.
-
----
-
-## 🎨 Tailwind CSS
-
-Tailwind CSS is used throughout the project to create responsive layouts and modern UI elements.
-
-Example:
-
-```jsx
-<div className="flex min-h-screen w-full items-center justify-center px-5 md:px-10">
-  <h1 className="text-4xl font-bold md:text-7xl">
-    K72 Studio
-  </h1>
-</div>
-```
-
-Responsive Tailwind utilities are used to adapt the website to different screen sizes.
-
----
-
-## 🎬 GSAP Animations
-
-GSAP is used to create the website's interactive animation system.
-
-Example:
-
-```javascript
-import gsap from "gsap";
-
-gsap.to(".hero-title", {
-  y: 0,
-  opacity: 1,
-  duration: 1,
-  ease: "power3.out"
-});
-```
-
-GSAP can also be combined with scroll interactions to create dynamic scrolling animations.
-
----
-
-## 🖱️ Smooth Scrolling
-
-Lenis is used to provide smooth scrolling.
-
-Example setup:
-
-```javascript
-import Lenis from "lenis";
-
-const lenis = new Lenis();
-
-function raf(time) {
-  lenis.raf(time);
-  requestAnimationFrame(raf);
-}
-
-requestAnimationFrame(raf);
 ```
 
 ---
