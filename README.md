@@ -304,23 +304,6 @@ The project was developed using:
 * **Chrome DevTools** — Debugging and responsive testing
 * **npm** — Package management
 
----
-
-## 📸 Preview
-
-<p align="center">
-  <a href="YOUR_LIVE_WEBSITE_URL">
-    <img src="YOUR_PREVIEW_IMAGE_URL" alt="K72 Studio Website" width="100%">
-  </a>
-</p>
-
-<p align="center">
-  <a href="YOUR_LIVE_WEBSITE_URL">
-    <strong>🚀 View Live Website</strong>
-  </a>
-</p>
-
----
 
 ## 👨‍💻 Author
 
