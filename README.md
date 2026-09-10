@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="YOUR_LIVE_WEBSITE_URL">
-    <img src="https://assets.maxibestof.one/sections/88bdb780-c6df-44be-bf17-1f5852ebaf3b.png" alt="K72 Studio Preview" width="100%">
+    <img src="[https://assets.maxibestof.one/sections/88bdb780-c6df-44be-bf17-1f5852ebaf3b.png](https://assets.maxibestof.one/sections/88bdb780-c6df-44be-bf17-1f5852ebaf3b.png)" alt="K72 Studio Preview" width="100%">
   </a>
 </p>
 
