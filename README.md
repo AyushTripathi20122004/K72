@@ -1,7 +1,7 @@
 # K72 Studio
 
 <p align="center">
-  <a href="YOUR_LIVE_WEBSITE_URL">
+  <a href="https://k72-steel-delta.vercel.app/">
     <img src="https://assets.awwwards.com/awards/sites_of_the_day/2021/06/k72-3.jpg" alt="K72 Studio Preview" width="100%">
   </a>
 </p>
@@ -18,7 +18,7 @@
 
 ## 🌐 Live Website
 
-**[Visit K72 Studio](YOUR_LIVE_WEBSITE_URL)**
+**https://k72-steel-delta.vercel.app/**
 
 ---
 
