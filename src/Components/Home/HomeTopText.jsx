@@ -4,7 +4,7 @@ import HomeVideo from '../../Videos/HomeVideo.mp4'
 
 const HomeTopText = () => {
   return (
-    <div className='lg:mt-0 mt-[120vw] '>
+    <div className='lg:mt-0 mt-[90vw]  '>
       <div className='text-center font-[font1] uppercase  lg:text-[9vw] text-[12vw]  lg:leading-[8vw] leading-[10vw] text-white'>The spark for</div>
       <div className='text-center font-[font1]  uppercase lg:text-[9vw]  text-[12vw] lg:leading-[8vw] leading-[10vw] flex items-center text-white'>
         <div>all</div>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import {ProjetCard} from '../../ArrayData/Data'
 const AgSection3 = () => {
     return (
-        <div className='relative bg-black font-[font2] pt-[10vw]'>
+        <div className='relative  font-[font2] pt-[10vw]'>
 
             {/* cards */}
             <div className='relative'>

@@ -39,7 +39,7 @@ const Work = () => {
   });
 
   return (
-    <div className={`${Data.OpenNav === false ? 'block' : 'hidden'} w-screen py-1 h-full font-[font1]  `}>
+    <div id='top' className={`${Data.OpenNav === false ? 'block' : 'hidden'} w-screen py-1 h-full font-[font1]  `}>
       <div className='mt-[20vw] px-[1vw]'>
         <div className='flex'>
           <h1 className='text-[17vw] leading-[12vw]'>Work</h1>

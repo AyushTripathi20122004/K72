@@ -19,7 +19,7 @@ const Agency = () => {
       },
     })
 
-    tl.to('.AgParant', {
+    tl.to('.AgParant,.AgCardWrapper', {
       backgroundColor: 'black',
       duration: 0.25,
     })
@@ -29,7 +29,7 @@ const Agency = () => {
   }, [])
 
   return (
-    <div className='AgParant h-full w-full'>
+    <div id='top' className='AgParant h-full w-full'>
       <AgSection1 />
       <AgSection2 />
       <AgSection3 />

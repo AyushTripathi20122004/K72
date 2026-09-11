@@ -2,7 +2,7 @@ import React from 'react'
 
 const HomeCenterText = () => {
     return (
-        <div className=' w-full flex justify-end lg:mb-10 mb-0  font-[font2] lg:text-[1vw] text-[3vw] mr-10 items-center'>
+        <div className=' w-full flex justify-end lg:mb-10 mb-0 lg:mt-0 mt-[10vw]  font-[font2] lg:text-[1vw] text-[3vw] mr-10 items-center'>
             <div className='lg:w-[20vw] w-[60vw]   text-white'>
                 <div className='text-right'>
                     K72 is an agency that
